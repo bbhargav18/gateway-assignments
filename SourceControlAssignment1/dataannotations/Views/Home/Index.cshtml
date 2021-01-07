@@ -1,0 +1,42 @@
+﻿@model dataannotations.Models.Employee
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>APPLICATION FORM</h2>
+@using (Html.BeginForm())
+{
+
+    <p>
+        @Html.LabelFor(m => m.username)
+        @Html.TextBoxFor(m => m.username)
+        @Html.ValidationMessageFor(m => m.username)
+    </p>
+    <p>
+        @Html.LabelFor(m => m.Email)
+        @Html.TextBoxFor(m => m.Email)
+        @Html.ValidationMessageFor(m => m.Email)
+    </p>
+    <p>
+        @Html.LabelFor(m => m.Age)
+        @Html.TextBoxFor(m => m.Age)
+        @Html.ValidationMessageFor(m => m.Age)
+    </p>
+    <p>
+        @Html.LabelFor(m => m.Password)
+        @Html.PasswordFor(m => m.Password)
+        @Html.ValidationMessageFor(m => m.Password)
+    </p>
+    <p>
+        @Html.LabelFor(m => m.RePassword)
+        @Html.PasswordFor(m => m.RePassword)
+        @Html.ValidationMessageFor(m => m.RePassword)
+    </p>
+    <p>
+
+        @Html.CheckBoxFor(m => m.Terms) Please select terms and conditions
+        @Html.ValidationMessageFor(m => m.Terms)
+    </p>
+    <input type="submit" name="btn" value="SUBMIT" />
+
+}
