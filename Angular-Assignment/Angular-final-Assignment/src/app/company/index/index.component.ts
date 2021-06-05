@@ -40,7 +40,6 @@ export class IndexComponent implements OnInit {
   getLatestDetails(){
     this.service.getAllCompany().subscribe(res=>{
       this.companydata=res;
-
       console.log(res)
   });
   
@@ -68,9 +67,7 @@ editCompany(d:any){
         window.location.reload();
       });
       
-    }, 1000);
- 
-  
+    }, 1000); 
 
 
  

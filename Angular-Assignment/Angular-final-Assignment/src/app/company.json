@@ -1,61 +1,49 @@
 {
   "Company": [
     {
-      "email": "gateway@gmail.com",
-      "name": "gateway group",
-      "totalEmployee": "1000",
-      "address": "ahmedabad",
+      "email": "TataGroup@gmail.com",
+      "name": "Tata Group",
+      "totalEmployee": "5000",
+      "address": "India",
       "isCompanyActive": "YES",
       "totalBranch": 3,
       "companyBranch": [
         {
-          "branchid": "1",
-          "branchname": "gateway digital",
-          "branchaddress": "surat"
-        },
-        {
-          "branchid": "2",
-          "branchname": "autofacets",
-          "branchaddress": "vadodara"
-        },
-        {
-          "branchid": "3",
-          "branchname": "dilx",
-          "branchaddress": "mumbai"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "email": "BJ1801@gmail.com",
-      "name": "BJ Group",
-      "totalEmployee": "100",
-      "address": "Ahmedabad",
-      "isCompanyActive": "YES",
-      "totalBranch": 4,
-      "companyBranch": [
-        {
-          "branchid": "1",
-          "branchname": "BJ consultancy",
+          "branchId": "1",
+          "branchName": "Tata Steel",
           "branchaddress": "Mumbai"
         },
         {
-          "branchid": "2",
-          "branchname": "BJ info",
+          "branchId": "2",
+          "branchName": "Tata Chemical",
           "branchaddress": "Pune"
         },
         {
-          "branchid": "3",
-          "branchname": "BJ Logistics",
-          "branchaddress": "Banglore"
-        },
-        {
-          "branchid": "4",
-          "branchname": "BJ Magnify",
-          "branchaddress": "Nikol"
+          "branchId": "3",
+          "branchName": "Tata Consultancy",
+          "branchaddress": "Gandhinagar"
         }
       ],
-      "id": 3
+      "id": 1
+    },
+    {
+      "email": "bhargav.bambhroliya@thegatewaycorp.co.in",
+      "name": "gateway",
+      "totalEmployee": "200",
+      "address": "india",
+      "isCompanyActive": "YES",
+      "totalBranch": 2,
+      "companyBranch": [
+        {
+          "branchId": "1",
+          "branchName": "bharagv",
+          "branchaddress": "ahmedabad"
+        },
+        {
+          "branchId": ""
+        }
+      ],
+      "id": 2
     }
   ]
 }
